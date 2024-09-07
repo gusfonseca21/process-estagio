@@ -1,18 +1,14 @@
-## Getting Started
+### O código do projeto foi escrito em Java e possui a solução dos problemas 1 e 2 do desafio.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Iniciando o código
+ - É necessário ter o Java Development Kit (JDK) instalado no seu computador. Abra o terminal e digite o seguinte comando para verificar se ele está instalado:
+```bash
+java -version
+```
 
-## Folder Structure
+- Abra o projeto com um editor de código e faça as alterações que achar melhor para visualizar o resultado do código. A classe App é a classe principal. Nela comente ou descomente a chamada da classe e o método dos desafios. Nela teremos Fibonacci.verificarNumero() e VerificaString.possuiA().
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Abra o terminal do computador na pasta raiz do projeto e insira o seguinte comando para executar o seguinte código:
+```bash
+java --enable-preview -cp ./bin App
+```
